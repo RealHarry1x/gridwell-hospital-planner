@@ -1,0 +1,5 @@
+{
+  "name": "gridwell-local-workspace",
+  "private": true,
+  "scripts": { "dev": "python3 run.py --preview" }
+}

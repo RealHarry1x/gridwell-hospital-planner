@@ -1,0 +1,26 @@
+# Local Python dependencies / caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+# Local app state and generated output
+data/
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+node_modules/
+frontend/dist/
+frontend/.test-output/
+.gridwell-logs/
+# Secrets and machine-specific files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.log
+.openai/
